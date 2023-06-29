@@ -1,0 +1,69 @@
+body {
+  text-align: center;
+  background-color:#00065c;
+
+}
+
+#level-title {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2rem;
+  margin:  2%;
+  color: #ffd000;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 7%;
+  display: inline-block;
+  height: 6rem;
+  width: 6rem;
+  border: 5px rgb(255, 255, 255);
+  border-style: outset;
+  
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+  
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+footer{
+  color: #ffffff;
+  font-family:  serif;
+
+
+}
+.btn:hover{
+transform:rotate(360deg);
+transition: 1s;
+border-radius: 100%;
+
+
+}
